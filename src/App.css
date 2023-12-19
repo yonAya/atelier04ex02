@@ -1,0 +1,56 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(129, 230, 129);
+  height: 100vh;
+}
+
+.stg img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+.stg {
+  display: flex;
+  align-items: center;
+}
+
+.stg h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.stg h1 {
+  font-size: medium;
+}
+
+.stg p {
+  font-size: small;
+}
+
+.etab {
+  width: 40%;
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+button {
+  background-color: rgb(129, 230, 129);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.btn {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
